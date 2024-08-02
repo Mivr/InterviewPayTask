@@ -1,7 +1,7 @@
 import { Merchant } from "./Merchant.ts";
 import api from "../api/Api.ts";
 
-const API_URL = "/merchants";
+const API_URL = "/api/merchants";
 
 export class MerchantRepository {
   async getAll(): Promise<Merchant[]> {

@@ -1,7 +1,7 @@
 import { Transaction } from "./Transaction.ts";
 import api from "../api/Api.ts";
 
-const API_URL = "/transactions";
+const API_URL = "/api/transactions";
 
 export class TransactionRepository {
   async getAll(): Promise<Transaction[]> {
